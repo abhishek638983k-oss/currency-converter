@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="theme-color" content="#020617">
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="api-msg"></div>
+
+    <div class="main">
+        <div class="heading">CURRENCY CONVERTER</div>
+
+        <div class="from-container">
+            <div class="from-country-flag country-flag">
+                <img src="https://flagsapi.com/IN/flat/64.png" alt="IN flag" />
+                <input class="search" id="searchFrom" type="text" placeholder="From Currency" />
+            </div>
+
+            <div class="option_container">
+                <select name="select_currency" class="select-currency" id="select-from-currency">
+            <option value="IN" selected>INR</option>
+          </select>
+            </div>
+        </div>
+
+        <div class="arrow-container">
+            <img src="./exchange-svgrepo-com (1).svg" alt="arrow" />
+        </div>
+
+        <div class="to_container">
+            <div class="to-country-flag country-flag">
+                <img src="https://flagsapi.com/IN/flat/64.png" alt="IN flag" />
+                <input class="search" id="searchTo" type="text" placeholder="To Currency" />
+            </div>
+
+            <div class="option_container">
+                <select name="select_currency" class="select-currency" id="select-to-currency">
+            <option value="IN" selected>INR</option>
+          </select>
+            </div>
+        </div>
+
+        <div>
+            <div class="select-date">
+                <input placeholder="Select Date" type="date" id="date" max="" min="2024-04-01" />
+            </div>
+            <div class="result-container">
+                <span class="result">0.0000</span>
+            </div>
+            <div class="amount-container">
+                <input min="0" type="number" id="amount" placeholder="Enter Amount" required />
+                <button id="convert-btn">Convert</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="countryCodes.js "></script>
+    <script src="app.js "></script>
+</body>
+
+</html>
