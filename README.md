@@ -5,7 +5,7 @@ A fast and responsive **Live Currency Converter** application that provides real
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
 
-## ✨ Features
+## ✨ Features    :
 
 - 🌍 Convert between multiple international currencies
 - ⚡ Real-time exchange rate updates
